@@ -16,6 +16,7 @@ function MySidebar(){
 				<nav className="menu rounded-md">
 					<section className="menu-section px-4">
 						<ul className="menu-items">
+							<a href="/">
 							<li className="menu-item">
                             <svg xmlns="http://www.w3.org/2000/svg" className="opacity-75" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
 									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -28,14 +29,17 @@ function MySidebar(){
 									<path d="M12 14l0 3"></path>
 									<path d="M16 14l0 3"></path>
 								</svg>
-								<a href="/">Home</a>
+								<span>Home</span>
 							</li>
+							</a>
+							<a href="/example">
 							<li className="menu-item">
 								<svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 opacity-75" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 									<path stroke-linecap="round" stroke-linejoin="round" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
 								</svg>
-								<a href="/example">Example</a>
+								<span>Example</span>
 							</li>
+							</a>
 							<li>
 								<input type="checkbox" id="menu-1" className="menu-toggle" />
 								<label className="menu-item justify-between" for="menu-1">
